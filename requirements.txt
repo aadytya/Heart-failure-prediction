@@ -1,0 +1,8 @@
+flask
+requests
+pandas
+numpy
+xgboost
+scikit-learn
+colorama
+gunicorn
