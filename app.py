@@ -20,4 +20,4 @@ def predict():
     return render_template('predict.html',prediction_text="Heart Failure Prediction : "+str(output[0]))
 
 if __name__=="__main__":
-    app.run(debug=True,port=5000)
+    app.run(debug=True,port=int(os.environ.get("PORT", 8080)))
